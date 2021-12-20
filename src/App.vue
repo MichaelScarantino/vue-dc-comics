@@ -3,7 +3,7 @@
     <Header />
     <main>
       <div class="container">
-        ciao sono un main
+        ..Content goes here..
       </div>
     </main>
     <Prefooter />
@@ -35,10 +35,11 @@ export default {
   @import './style/variables.scss';
 
   main{
-
-    // TEST
-    background-color: chartreuse;
+    display: flex;
+    align-items: center;
     height: 100px;
+    background-color: #1c1c1c;
+    color: white;
   }
 
 

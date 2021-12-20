@@ -161,7 +161,7 @@ export default {
         width: 100%;
         background-image: url("../assets/img/footer-bg.jpg");
         background-size: cover;
-        color: white;
+        color: $brand_secondary_color;
 
         .footer-links-and-img{
             display: flex;

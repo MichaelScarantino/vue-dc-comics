@@ -6,7 +6,7 @@
                 <li v-for="(icon, index) in icons" :key="index">
                     <div class="single-icon">
                         <div class="single-icon-img">
-                            <img :src="require('../assets/img/' + icon.imgIcon)" alt="">
+                            <img :src="require('../assets/img/' + icon.imgIcon)" :alt="icon.text">
                         </div>
                         <div class="single-icon-text">
                             {{ icon.text }}

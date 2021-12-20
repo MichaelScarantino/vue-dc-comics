@@ -39,7 +39,6 @@
                 </div>
             </div>
             <div class="footer-img">
-                <!-- <img src="../assets/img/dc-logo-bg.png" alt=""> -->
             </div>
         </div>
     </div>

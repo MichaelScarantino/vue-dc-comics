@@ -57,7 +57,7 @@ export default {
     .pre-footer{
         width: 100%;
         background-color: #0182f9;
-        color: white;
+        color: $brand_secondary_color;
         font-size: 12px;
         text-transform: $transform_uppercase;
 

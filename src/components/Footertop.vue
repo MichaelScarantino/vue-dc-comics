@@ -39,6 +39,7 @@
                 </div>
             </div>
             <div class="footer-img">
+                <img src="../assets/img/dc-logo-bg.png" alt=" DC logo">
             </div>
         </div>
     </div>
@@ -162,6 +163,11 @@ export default {
         background-image: url("../assets/img/footer-bg.jpg");
         background-size: cover;
         color: $brand_secondary_color;
+        overflow: hidden;
+
+        .container{
+            position: relative;
+        }
 
         .footer-links-and-img{
             display: flex;
@@ -188,9 +194,11 @@ export default {
                 }
             }
             .footer-img{
-                background-image: url("../assets/img/dc-logo-bg.png");
-                background-size: cover;
-                background-position: center;
+                img{
+                    position: absolute;
+                    right: 0;
+                    top: -40%;
+                }
             }
         }
     }

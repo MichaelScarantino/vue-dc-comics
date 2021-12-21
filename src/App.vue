@@ -3,6 +3,7 @@
     <Header />
     <main>
       <Banner />
+      <Serieslist />
     </main>
     <Prefooter />
     <Footertop />
@@ -13,6 +14,7 @@
 <script>
 import Header from "./components/Header.vue";
 import Banner from "./components/Banner.vue";
+import Serieslist from "./components/Serieslist.vue";
 import Prefooter from "./components/Prefooter.vue";
 import Footertop from "./components/Footertop.vue";
 import Footerbottom from "./components/Footerbottom.vue";
@@ -22,6 +24,7 @@ export default {
   components: {
     Header,
     Banner,
+    Serieslist,
     Prefooter,
     Footertop,
     Footerbottom
@@ -35,11 +38,7 @@ export default {
   @import './style/variables.scss';
 
   main{
-    display: flex;
-    align-items: center;
     background-color: #1c1c1c;
-    color: white;
+    color: $brand_secondary_color;
   }
-
-
 </style>

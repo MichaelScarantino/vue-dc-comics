@@ -2,9 +2,7 @@
   <div id="app">
     <Header />
     <main>
-      <div class="container">
-        ..Content goes here..
-      </div>
+      <Banner />
     </main>
     <Prefooter />
     <Footertop />
@@ -14,6 +12,7 @@
 
 <script>
 import Header from "./components/Header.vue";
+import Banner from "./components/Banner.vue";
 import Prefooter from "./components/Prefooter.vue";
 import Footertop from "./components/Footertop.vue";
 import Footerbottom from "./components/Footerbottom.vue";
@@ -22,6 +21,7 @@ export default {
   name: "App",
   components: {
     Header,
+    Banner,
     Prefooter,
     Footertop,
     Footerbottom
@@ -37,7 +37,6 @@ export default {
   main{
     display: flex;
     align-items: center;
-    height: 100px;
     background-color: #1c1c1c;
     color: white;
   }
